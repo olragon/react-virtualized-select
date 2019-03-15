@@ -1,6 +1,6 @@
 ### This component is no longer supported
 
-Hello! This package is built on [react-virtualized](https://github.com/bvaughn/react-virtualized) (a library that I no longer support) and vesion 1.0 of [react-select](https://github.com/JedWatson/react-select)  (which is no longer the current version). As such, I've decided to stop supporting this package. GitHub issues and pull requests may be ignored.
+Hello! This package is built on [react-virtualized](https://github.com/bvaughn/react-virtualized) (a library that I no longer support) and vesion 1.0 of [react-select](https://github.com/JedWatson/react-select/tree/v1.x)  (which is no longer the current version). As such, I've decided to stop supporting this package. GitHub issues and pull requests may be ignored.
 
 If you are interested in taking over maintenance of this package, please send me an email (see my GitHub profile) and I'd be happy to add you as a collaborator.
 
@@ -50,7 +50,7 @@ Alternately you can load a global-friendly UMD build:
 
 ## Example
 
-_react-select-virtualized_ works just like _react-select_. You pass it an array of options, along with almost any other parameters supported by the [`Select` component](https://github.com/JedWatson/react-select/#usage).
+_react-select-virtualized_ works just like _react-select_. You pass it an array of options, along with almost any other parameters supported by the [`Select` component](https://github.com/JedWatson/react-select/tree/v1.x#usage).
 
 [Try this example in Code Sandbox.](https://codesandbox.io/s/91p80x10zp)
 
@@ -82,7 +82,7 @@ The additional parameters introduced by _react-select-virtualized_ are optional.
 
 | Property | Type | Description |
 |:---|:---|:---|
-| async | `PropTypes.bool` | Use `Select.Async` internally; if this property is specified then a [`loadOptions`](https://github.com/JedWatson/react-select#async-options-with-promises) method should also be used. |
+| async | `PropTypes.bool` | Use `Select.Async` internally; if this property is specified then a [`loadOptions`](https://github.com/JedWatson/react-select/tree/v1.x#async-options-with-promises) method should also be used. |
 | maxHeight | `PropTypes.number` | Max height of options menu; defaults to 200 pixels. |
 | optionHeight | `PropTypes.number` or `PropTypes.func` | Option height (defaults to 35 pixels). Dynamic height can be supported via a function with the signature `({ option: Object }): number` |
 | optionRenderer | `PropTypes.func` | Custom option renderer; (see below for signature). |
